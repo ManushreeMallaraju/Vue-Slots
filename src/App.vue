@@ -2,8 +2,8 @@
   <div id="app">
    <!-- <Frame><img src='assests/pic.jpg'></Frame> -->
    <Frame>
-     <template v-slot:default="{user}">
-        {{user.firstName}}
+     <template v-slot:default="{user = {}}">
+        {{user.lastName}}
     </template>
      <!-- <h2 slot="title">{{title}}</h2>
      <p slot="text">I'm the paragrapgh text for the slot</p> -->
