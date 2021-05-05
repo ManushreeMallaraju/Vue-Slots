@@ -18,8 +18,8 @@
 
         <!-- Scoped Slot-->
         <span>
-            <slot v-bind:user="user">
-                {{user.firstName}}
+            <slot :user="user">
+                {{user.lastName}}
             </slot>
         </span>
     </div>
